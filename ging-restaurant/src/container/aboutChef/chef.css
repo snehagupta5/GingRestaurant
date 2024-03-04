@@ -1,0 +1,21 @@
+.chefSubSection{
+    width: 35%;
+}
+
+@media screen and (max-width: 850px) {
+    .chefSection {
+        flex-direction: column;
+        width: 100%;
+    }
+    .chefSubSection{
+        width: 90%;
+    }
+    .chefSubSection_02{
+        width: 90%;
+    }
+}
+@media screen and (min-width: 850px) {
+    .chefSubSection_02{
+        width: 40%;
+    }
+}

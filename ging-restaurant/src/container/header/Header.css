@@ -1,0 +1,19 @@
+@media screen and (max-width: 850px) {
+    .heroWrap {
+        padding: 2rem;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 850px) {
+    .heroWrap {
+        flex-direction: row;
+    }
+    .heroSubSection_02{
+        height: 80vh;
+    }
+}
+@media screen and (min-width: 850px) {
+    .heroSubSection {
+        width: 50%;
+    }
+}

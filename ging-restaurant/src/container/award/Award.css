@@ -1,0 +1,14 @@
+
+@media screen and (max-width: 950px) {
+    .awardSection {
+        flex-direction: column;
+    }
+    .awardSection_02{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .awardSection_03 {
+        flex-direction: column;
+    }
+}

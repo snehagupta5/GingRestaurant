@@ -1,0 +1,44 @@
+@media screen and (min-width: 840px) {
+    .app_nav_icon {
+        display: none;
+    }
+}
+.app_nav_section{
+display: flex;
+}
+@media screen and (max-width: 552px) {
+    .app_nav_section {
+        display: none;
+    }
+}
+@media screen and (max-width: 840px) {
+    .app_nav_item {
+        display: none;
+    }
+}
+.nav_show_02{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    height: 100%;
+    color: var(--color-golden);
+    font-family: var(--font-base);
+    font-size: 24px;
+}
+.nav_show_02 ul :hover{
+    color: #ffff;
+}
+.nav_show {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding-bottom: 3rem;
+    height: 100%;
+}
+
+.nav_show {
+    background-color: #0C0C0C; 
+    transition: background-color 0.3s ease 1s;
+}

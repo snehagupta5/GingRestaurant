@@ -1,0 +1,28 @@
+.footerCard{
+border: 1px solid rgba(220, 202, 135, 0.2);
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8), 0 1px 3px rgba(0, 0, 0, 0.5);
+width: 70%;
+padding: 2rem 0rem;
+}
+.footerInput{
+    border: 1px solid rgba(220, 202, 135);
+    border-radius: 2px;
+}
+@media screen and (max-width: 350px) {
+    .footerCard {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 250px) {
+    .footerCard {
+        height: 50%;
+    }
+}
+@media screen and (max-width: 850px) {
+    .footerSection {
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 2rem;
+    }
+}

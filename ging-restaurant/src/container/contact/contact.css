@@ -1,0 +1,18 @@
+
+.findSection_02 {
+    width: 30%;
+}
+@media screen and (max-width: 850px) {
+    .findSection {
+        flex-direction: column;
+        width: 100%;
+    }
+    .findSection_01 {
+        width: 100%;
+        padding:2rem;
+    }
+    .findSection_02 {
+        width: 60%;
+    }
+
+}

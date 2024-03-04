@@ -1,0 +1,14 @@
+@media screen and (max-width: 850px) {
+    .menuSection {
+        flex-direction: column;
+        padding: 2rem;
+    }
+}
+.menuSubSection{
+    width: 20%;
+}
+@media screen and (max-width: 850px) {
+    .menuSubSection {
+        width: 100%;
+    }
+}
